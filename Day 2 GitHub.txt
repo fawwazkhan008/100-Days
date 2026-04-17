@@ -1,0 +1,9 @@
+git init --> Creating Repository
+git add .--> add All files in the current working directory
+git add file1 --> add single file
+git add ren-file-1 --> Rename File
+git commit -m "My Second commit." --> Making Commit
+git mv <source-file> <destination-file> --> Rename file name from both side working directory or Index
+git rm <file name> --> to delete a file from both side working directory or Index
+git rm --cached file-3 --> Only delete file from Index
+git status --> Git can Display the repository status (Tracks file changes, Support version control)
