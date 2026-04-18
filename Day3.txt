@@ -5,6 +5,10 @@ Hello EveryOne This is file 3 and i am fresher
 import random
 
 Hello EveryOne Welcome to my mini Blog
+<<<<<<< HEAD
 dskjahdksaj
 dnkjsdnkja
 dksahdkja
+=======
+He Hello this is new file
+>>>>>>> c15533a27863aee8281b0fbc353be1e83dcac4da
