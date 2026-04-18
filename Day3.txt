@@ -4,4 +4,15 @@ Hello EveryOne This is file 3 and i am fresher
 Hello EveryOne This is file 3 and i am fresher
 import random
 
+<<<<<<< HEAD
 Hello EveryOne Welcome to my mini Blog
+=======
+Hello EveryOne Welcome to my mini Blog
+<<<<<<< HEAD
+dskjahdksaj
+dnkjsdnkja
+dksahdkja
+=======
+He Hello this is new file
+>>>>>>> c15533a27863aee8281b0fbc353be1e83dcac4da
+>>>>>>> 21b1f75362ed2359f0817d16c207021c09e94031
