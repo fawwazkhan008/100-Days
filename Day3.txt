@@ -19,9 +19,6 @@ def guess_the_number():
                 print("Too low! Try again.")
             elif guess > secret_number:
                 print("Too high! Try again.")
-            else:
-                print(f"Correct! You found it in {attempts} attempts.")
-                break
         except ValueError:
             print("Please enter a valid whole number.")
 
