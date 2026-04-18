@@ -5,3 +5,4 @@ Hello EveryOne This is file 3 and i am fresher
 import random
 
 Hello EveryOne Welcome to my mini Blog
+He Hello this is new file
