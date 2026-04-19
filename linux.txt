@@ -1,0 +1,83 @@
+1. ls — List Directory Contents
+Purpose: Shows files and folders in the current directory.
+Usage:
+lsls -lls -a
+Explanation:
+
+
+ls → shows names of files and folders.
+
+
+ls -l → long listing format (includes permissions, owner, size, modification date).
+
+
+ls -a → shows all files, including hidden files (those starting with a dot .).
+
+
+Example Output:
+-rw-r--r-- 1 user user 1024 Apr 19 10:00 file.txtdrwxr-xr-x 2 user user 4096 Apr 19 09:50 folder
+
+2. cd — Change Directory
+Purpose: Moves you between directories (folders).
+Usage:
+cd /home/user/Documentscd ..cd ~
+Explanation:
+
+
+cd /path/to/directory → go to a specific directory.
+
+
+cd .. → go up one directory level.
+
+
+cd ~ → go to your home directory.
+
+
+
+3. pwd — Print Working Directory
+Purpose: Shows the full path of your current location in the filesystem.
+Usage:
+pwd
+Example Output:
+/home/user/Documents
+Explanation:
+This is helpful when you’re navigating deep directories and want to know exactly where you are.
+
+4. cp — Copy Files or Directories
+Purpose: Copies files or directories from one location to another.
+Usage:
+cp source.txt destination.txtcp -r folder1/ folder2/
+Explanation:
+
+
+cp file1.txt file2.txt → copy a file.
+
+
+cp -r folder1/ folder2/ → copy a folder and its contents recursively.
+
+
+Tip: Always check -i (interactive) to prevent overwriting:
+cp -i file1.txt file2.txt
+
+5. rm — Remove Files or Directories
+Purpose: Deletes files or directories.
+Usage:
+rm file.txtrm -r folder/
+Explanation:
+
+
+rm file.txt → deletes a file.
+
+
+rm -r folder/ → deletes a folder and all its contents.
+
+
+⚠️ Be careful: rm permanently deletes files; there’s no trash bin. Using -i can help avoid accidents:
+
+
+rm -i file.txt
+
+These five commands (ls, cd, pwd, cp, rm) are fundamental for navigating and managing files in Linux. Once you master them, you’ll feel much more confident in the terminal.
+
+If you want, I can make a cheat sheet with 20+ essential Linux commands including explanations, examples, and tips for safe usage. It’s really handy for beginners and intermediate users.
+Do you want me to make that cheat sheet?
